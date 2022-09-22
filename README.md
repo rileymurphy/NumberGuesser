@@ -1091,7 +1091,7 @@ numberList.Add(i);
 }
 
 How to find the median of a list:
-// static void getMedian(int median)
+static void getMedian(int median)
 {
 if (guessingRange.Count % 2 != 0) //odd count
 {
@@ -1104,4 +1104,5 @@ else // even count
 {
 int medianPosEven = (guessingRange.Count / 2 - 1);
 int medianValue = (int)(guessingRange[medianPosEven] + guessingRange[medianPosEven] + 1 / 2.0);
+}
 }
